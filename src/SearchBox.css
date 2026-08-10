@@ -1,0 +1,32 @@
+.searchContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 35px;
+}
+
+.searchForm {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.searchForm .MuiTextField-root {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.searchButton {
+  height: 56px !important;
+  min-width: 110px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+}
+
+.errorMessage {
+  margin: 12px 0 0;
+  text-align: center;
+  color: #dc2626;
+  font-size: 14px;
+  font-weight: 500;
+}

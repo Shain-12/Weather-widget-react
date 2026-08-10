@@ -1,0 +1,25 @@
+.weatherApp {
+  min-height: 100vh;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #e0f2fe, #f8fafc, #dbeafe);
+}
+
+.weatherHeader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.weatherHeader h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  color: #172554;
+  letter-spacing: -1px;
+}
+
+.weatherHeader p {
+  margin-top: 8px;
+  font-size: 17px;
+  color: #64748b;
+}

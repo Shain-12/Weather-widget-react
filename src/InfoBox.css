@@ -1,0 +1,140 @@
+.infoBox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.weatherCard {
+  width: 100%;
+  max-width: 420px;
+  overflow: hidden;
+  border-radius: 20px !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.15) !important;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.weatherCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.2) !important;
+}
+
+.weatherImage {
+  height: 190px !important;
+  object-fit: cover;
+}
+
+.weatherContent {
+  padding: 24px;
+}
+
+.citySection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cityName {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  color: #172554;
+}
+
+.weatherIcon {
+  font-size: 34px !important;
+  color: #f59e0b;
+}
+
+.temperature {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.temperature span {
+  font-size: 28px;
+  font-weight: 500;
+  vertical-align: top;
+  margin-left: 3px;
+}
+
+.weatherDescription {
+  margin-top: 12px !important;
+  text-align: center;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  color: #475569;
+}
+
+.feelsLike {
+  margin-top: 5px !important;
+  text-align: center;
+  font-size: 14px !important;
+  color: #64748b;
+}
+
+.weatherDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.detailBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.detailBox svg {
+  color: #0284c7;
+  font-size: 25px;
+}
+
+.detailBox div {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailBox span {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.detailBox strong {
+  margin-top: 2px;
+  font-size: 16px;
+  color: #0f172a;
+}
+
+@media (max-width: 600px) {
+  .weatherApp {
+    padding: 30px 15px;
+  }
+
+  .weatherHeader h1 {
+    font-size: 34px;
+  }
+
+  .searchForm {
+    flex-direction: column;
+  }
+
+  .searchButton {
+    width: 100%;
+  }
+
+  .weatherCard {
+    max-width: 100%;
+  }
+}
