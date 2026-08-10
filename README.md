@@ -6,6 +6,20 @@ A responsive weather application built using React and Material UI. The applicat
 
 The Weather Widget provides a clean and responsive interface for searching and viewing current weather conditions for different cities.
 
+## Screenshots
+
+### Weather Widget
+
+![Weather Widget](screenshots/weather-rain.png)
+
+### Different Weather Condition
+
+![Weather Condition](screenshots/weather-cold.png)
+
+### Error Handling
+
+![Invalid City](screenshots/weather-error.png)
+
 ## Features
 
 - Search weather by city name
@@ -47,6 +61,7 @@ git clone https://github.com/Shain-12/Weather-widget-react.git
 ```
 
 ### 2. Navigate to the project directory
+
 ```bash
 cd Weather-widget-react
 ```
@@ -56,15 +71,17 @@ cd Weather-widget-react
 ```bash
 npm install
 ```
+
 ### 4. Configure the API key
 
 Create a `.env` file in the root directory:
+
 ```env
 VITE_WEATHER_API_KEY=your_openweather_api_key
 ```
 
 ### 5. Start the development server
-```bash 
+
+```bash
 npm run dev
 ```
-
